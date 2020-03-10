@@ -1,0 +1,16 @@
+platform:
+  - x64
+skip_commits:
+  files:
+    - "*.yml"
+    - "*.rst"
+    - "LICENSE"
+
+build: off
+
+test_script:
+  # Start Proxy
+  #- ps: Start-Process -FilePath o_o -NoNewWindow
+  - systeminfo
+  - mvn test -B -f .\pom.xml
+
