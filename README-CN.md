@@ -24,6 +24,9 @@
 2.发送请求，通知 Google 有新增、更新或删除的网页。  
 3.您可能需要比默认配额更多的配额。要查看当前配额和请求更多配额，请参阅配额。 
 
+## 详细教程
+更多详细教程请关注：[https://www.renfei.net/posts/1003342](https://www.renfei.net/posts/1003342)
+
 ## 案例
 ```java
 import com.alibaba.fastjson.JSON;
